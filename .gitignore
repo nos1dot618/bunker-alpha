@@ -15,3 +15,5 @@ bunker-alpha-test-*
 *.o
 *.obj
 *.lst
+
+creds/

@@ -10,3 +10,4 @@ dub run -- examples/proxy-config.json
 ## References
 
 - Socket programming reference: <https://arsdnet.net/dcode/book/chapter_02/03/>
+- OpenSSL documentation: <https://docs.openssl.org/master/>

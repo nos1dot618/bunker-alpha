@@ -3,5 +3,8 @@
   "url": "https://127.0.0.1",
   "port": 8443,
   "eof-marker": "0x04",
-  "root": "/var/www/files/"
+  "root": "/var/www/files/",
+  "backlog": 10,
+  "key-path": "creds/proxy_server.key",
+  "certificate-path": "creds/proxy_server.crt"
 }
