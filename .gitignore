@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/bunker-alpha
+bunker-alpha.so
+bunker-alpha.dylib
+bunker-alpha.dll
+libbunker-alpha.a
+bunker-alpha.a
+bunker-alpha.lib
+bunker-alpha-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

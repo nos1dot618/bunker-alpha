@@ -1,0 +1,12 @@
+{
+	"description": "A minimal reverse proxy.",
+	"dependencies": {
+		"openssl": "~>3.4.0"
+	},
+	"authors": [
+		"Lakshay Chauhan"
+	],
+	"copyright": "Copyright © 2026, Lakshay Chauhan",
+	"license": "MIT",
+	"name": "bunker-alpha"
+}
