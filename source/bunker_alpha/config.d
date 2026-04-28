@@ -38,11 +38,16 @@ class Config
     }
 
     static if (is(T == string))
-      return current.type == JSONType.string? nullable(current.str): Nullable!T();
-    else static if (is(T == ushort) || is(T == int) || is(T == long) || is(T == float))
+      return current.type == JSONType.string
+        ? nullable(current.str)
+        : Nullable!T();
+    else static if (is(T == ushort) || is(T == int) || is(T == long) ||
+                    is(T == float))
     {
-      if (current.type == JSONType.integer) return nullable(cast(T) current.integer);
-      if (current.type == JSONType.float_) return nullable(cast(T) current.floating);
+      if (current.type == JSONType.integer)
+        return nullable(cast(T) current.integer);
+      if (current.type == JSONType.float_)
+        return nullable(cast(T) current.floating);
       return Nullable!T();
     }
     else static if (is(T == bool))
