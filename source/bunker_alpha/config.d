@@ -1,4 +1,4 @@
-module config;
+module bunker_alpha.config;
 
 import std.file;
 import std.json;

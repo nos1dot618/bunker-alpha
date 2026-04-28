@@ -4,7 +4,7 @@
 bash setup.sh # For debian-based systems.
 # For other distributions:
 # Install the required dependencies manually (see setup.sh for reference)
-dub run -- examples/proxy-config.json
+dub run --config=proxy -- examples/proxy-config.json
 ```
 
 ## References

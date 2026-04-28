@@ -17,3 +17,5 @@ bunker-alpha-test-*
 *.lst
 
 creds/
+proxy
+client

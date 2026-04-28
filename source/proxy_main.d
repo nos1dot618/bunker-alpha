@@ -1,5 +1,3 @@
-module proxy;
-
 import std.file;
 import std.json;
 import std.socket;
@@ -8,8 +6,8 @@ import std.stdio;
 import deimos.openssl.err;
 import deimos.openssl.ssl;
 
-import config : Config;
-import log;
+import bunker_alpha.config : Config;
+import log = bunker_alpha.log;
 
 struct ClientConnection
 {

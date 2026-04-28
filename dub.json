@@ -8,5 +8,14 @@
 	],
 	"copyright": "Copyright © 2026, Lakshay Chauhan",
 	"license": "MIT",
-	"name": "bunker-alpha"
+	"name": "bunker-alpha",
+  "configurations": [
+    {
+      "name": "proxy",
+      "targetName": "proxy",
+      "targetType": "executable",
+      "mainSourceFile": "source/proxy_main.d",
+      "sourcePaths": ["source"]
+    }
+  ]
 }

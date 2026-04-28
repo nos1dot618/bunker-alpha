@@ -1,4 +1,4 @@
-module log;
+module bunker_alpha.log;
 
 import std.stdio : writeln, writefln;
 
